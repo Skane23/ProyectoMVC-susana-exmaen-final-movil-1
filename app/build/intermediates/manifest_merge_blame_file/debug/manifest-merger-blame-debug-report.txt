@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.proyectomvc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:5:5-45:19
+12        android:allowBackup="true"
+12-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\Usuario\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.ProyectoMVC" >
+21-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:11:9-49
+22        <activity
+22-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:13:9-19:20
+23            android:name="com.example.proyectomvc.NuevoActivity"
+23-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:14:13-42
+24            android:parentActivityName="com.example.proyectomvc.MainActivity" >
+24-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:15:13-55
+25            <meta-data
+25-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:16:13-18:49
+26                android:name="android.support.PARENT_ACTIVITY"
+26-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:17:17-63
+27                android:value=".MainActivity" />
+27-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:18:17-46
+28        </activity>
+29        <activity android:name="com.example.proyectomvc.MainActivity" >
+29-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:20:9-26:20
+29-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:20:19-47
+30            <intent-filter>
+30-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:22:17-69
+31-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:24:17-77
+33-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:28:9-35:20
+37            android:name="com.example.proyectomvc.VerActivity"
+37-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:29:13-40
+38            android:parentActivityName="com.example.proyectomvc.MainActivity" >
+38-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:30:13-55
+39            <meta-data
+39-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:16:13-18:49
+40                android:name="android.support.PARENT_ACTIVITY"
+40-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:17:17-63
+41                android:value=".MainActivity" />
+41-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:18:17-46
+42        </activity>
+43        <activity
+43-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:37:9-44:20
+44            android:name="com.example.proyectomvc.EditarActivity"
+44-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:38:13-43
+45            android:parentActivityName="com.example.proyectomvc.MainActivity" >
+45-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:39:13-55
+46            <meta-data
+46-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:16:13-18:49
+47                android:name="android.support.PARENT_ACTIVITY"
+47-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:17:17-63
+48                android:value=".MainActivity" />
+48-->C:\Users\Usuario\AndroidStudioProjects\ProyectoMVC\app\src\main\AndroidManifest.xml:18:17-46
+49        </activity>
+50    </application>
+51
+52</manifest>
